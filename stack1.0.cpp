@@ -1,7 +1,6 @@
 #include <iostream>
 #include<conio.h>
 #include<stdlib.h>
-
 using namespace std;
 class stack {
 	int stk[5];
