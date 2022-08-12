@@ -1,7 +1,7 @@
 #include <iostream>
 #include<conio.h>
 #include<stdlib.h>
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
 using namespace std;
 class stack {
 	int stk[5];
@@ -33,7 +33,7 @@ class stack {
 		{
 			if(top<0)
 			{
-				cout<<"Yýgýn bos";
+				cout<<"YÃ½gÃ½n bos";
 				return;
 				
 			}
@@ -47,7 +47,7 @@ int main(int argc, char** argv) {
 	stack st;
 	while(1)
 	{
-		cout<<"\n 1.push 2.pop 3.Göster 4.Sonlandir \nSeciminizi Giriniz: ";
+		cout<<"\n 1.push 2.pop 3.GÃ¶ster 4.Sonlandir \nSeciminizi Giriniz: ";
 		cin>>ch;
 		switch(ch)
 		{
